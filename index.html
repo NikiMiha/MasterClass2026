@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>ТРОЙНОЙ мастер-класс | Висцеральный массаж + Снятие зажимов таза + Вакуумные банки</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #fefcf7; color: #1e1e2a; line-height: 1.4; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .btn { display: inline-block; background: #c17b4c; color: white; font-weight: 700; text-decoration: none; padding: 14px 32px; border-radius: 40px; transition: 0.25s; border: none; cursor: pointer; font-size: 1rem; text-align: center; }
+        .btn:hover { background: #a56238; transform: translateY(-2px); }
+        .btn-block { width: 100%; }
+        h1, h2, h3 { font-weight: 800; letter-spacing: -0.02em; }
+        h1 { font-size: 2.6rem; line-height: 1.2; margin-bottom: 1rem; }
+        h2 { font-size: 2rem; margin-bottom: 1.5rem; }
+        h3 { font-size: 1.4rem; margin-bottom: 1rem; }
+        .section { padding: 60px 0; border-bottom: 1px solid #ece6dc; }
+        .badge { background: #e8dfd3; color: #6b3e1f; font-size: 0.8rem; font-weight: 600; padding: 6px 14px; border-radius: 30px; display: inline-block; margin-bottom: 1.2rem; }
+        .badge-hot { background: #c17b4c; color: white; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 30px; }
+        .card { background: white; padding: 28px; border-radius: 28px; border: 1px solid #f0eae0; }
+        .price-card { background: white; border-radius: 32px; padding: 32px; text-align: center; border: 1px solid #f0e2d4; }
+        .price-card.featured { border: 2px solid #c17b4c; position: relative; }
+        .price-card.featured::before { content: "🔥 ЭКОНОМИЯ 1500 ₽"; position: absolute; top: -12px; left: 20px; background: #c17b4c; color: white; font-size: 0.7rem; padding: 4px 12px; border-radius: 30px; }
+        .price { font-size: 2.5rem; font-weight: 800; color: #c17b4c; margin: 20px 0; }
+        .list-icon { list-style: none; }
+        .list-icon li { padding-left: 28px; position: relative; margin-bottom: 12px; font-weight: 500; }
+        .list-icon li::before { content: "✓"; position: absolute; left: 0; color: #c17b4c; font-weight: bold; }
+        .footer { background: #1e1e2a; color: #ccc; text-align: center; padding: 40px 0; }
+        @media (max-width: 800px) {
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.6rem; }
+            .grid-2, .grid-3 { grid-template-columns: 1fr; gap: 24px; }
+            .section { padding: 40px 0; }
+        }
+        .hero { background: linear-gradient(135deg, #fff6ed 0%, #f9efe4 100%); border-radius: 0 0 48px 48px; padding-top: 40px; padding-bottom: 56px; }
+        .payment-info { background: #e8dfd3; border-radius: 28px; padding: 28px; }
+        .payment-number { font-family: monospace; font-size: 1.5rem; font-weight: 800; background: white; display: inline-block; padding: 12px 28px; border-radius: 60px; }
+        .logo { font-weight: 800; font-size: 1.5rem; }
+        .logo span { color: #c17b4c; }
+        .schedule-card { background: #f9f5ef; border-radius: 28px; padding: 24px; margin-top: 16px; }
+        .schedule-item { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid #f0eae0; }
+        .schedule-item:last-child { border-bottom: none; }
+        .schedule-time { font-weight: 800; font-size: 1.2rem; color: #c17b4c; min-width: 100px; }
+        .schedule-name { font-weight: 600; font-size: 1.1rem; }
+        .telegram-btn { background: #0088cc; }
+        .telegram-btn:hover { background: #006699; }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 40px;">
+            <span class="logo">📚 Мои<span> знания</span></span>
+            <div style="background: #2c2c38; color: white; padding: 8px 20px; border-radius: 60px;">📍 Евгения Савкова, 35/2 · «Мой Зал»</div>
+        </div>
+        <div class="grid-2" style="align-items: center;">
+            <div>
+                <div class="badge badge-hot">⚡ 3 МАСТЕР-КЛАССА В 1 ДЕНЬ ⚡</div>
+                <h1>Висцеральный массаж + Снятие зажимов таза + Вакуумные банки</h1>
+                <p style="font-size: 1.2rem; margin: 24px 0;">Один насыщенный день — три мощных инструмента. Диагностика, супер-симптомы, протоколы под ключ.</p>
+                <div class="schedule-card">
+                    <div class="schedule-item"><div class="schedule-time">10:00 – 11:30</div><div><div class="schedule-name">🧠 Висцеральный массаж</div></div></div>
+                    <div class="schedule-item"><div class="schedule-time">11:30 – 13:00</div><div><div class="schedule-name">🦴 Снятие зажимов таза</div></div></div>
+                    <div class="schedule-item"><div class="schedule-time">13:00 – 14:30</div><div><div class="schedule-name">🏺 Массаж вакуумными банками</div></div></div>
+                </div>
+                <div style="margin-top: 32px;">
+                    <a href="https://t.me/moizal_ekb" target="_blank" class="btn telegram-btn" style="background: #0088cc;">📱 Записаться в Telegram</a>
+                </div>
+            </div>
+            <div><img src="https://placehold.co/500x400/f9efe4/c17b4c?text=3+МК+в+1+день" style="width:100%; border-radius: 36px;"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <div style="text-align: center;"><div class="badge">Программа</div><h2>3 мастер-класса = 3 готовых инструмента</h2></div>
+        <div class="grid-3">
+            <div class="card"><h3>🧠 Висцеральный массаж</h3><ul class="list-icon"><li>Диагностика по 4 школам</li><li>Супер-симптомы</li><li>4 протокола: убрать живот, снять спазм диафрагмы, ШВЗ, профилактика опущения</li><li>Работа в 5 положениях</li></ul></div>
+            <div class="card"><h3>🦴 Снятие зажимов таза</h3><ul class="list-icon"><li>Анатомия тазового дна</li><li>Освобождение крестца и подвздошных костей</li><li>Работа с грушевидной мышцей</li><li>Протокол «Мягкое освобождение таза»</li></ul></div>
+            <div class="card"><h3>🏺 Массаж вакуумными банками</h3><ul class="list-icon"><li>Виды банок: силиконовые, стеклянные</li><li>Статика, динамика, фасциальное скольжение</li><li>Работа на спине и животе</li><li>Протокол «Банки + висцералка»</li></ul></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div style="text-align: center;"><div class="badge">Стоимость</div><h2>Выберите формат</h2></div>
+        <div class="grid-2" style="max-width: 800px; margin: 0 auto;">
+            <div class="price-card"><h3>🎫 1 мастер-класс</h3><div class="price">2 000 ₽</div><a href="https://t.me/moizal_ekb" target="_blank" class="btn btn-block">Записаться</a></div>
+            <div class="price-card featured"><h3>🔥 ТРОЙНОЙ МК</h3><div class="price">4 500 ₽</div><a href="https://t.me/moizal_ekb" target="_blank" class="btn btn-block">Записаться</a></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="grid-2">
+            <div class="payment-info">
+                <h3>💳 Оплата</h3>
+                <div style="text-align: center; margin: 20px 0;">
+                    <div class="payment-number">+7 912 650-86-27</div>
+                    <p style="margin-top: 8px;">Получатель: Екатерина Сергеевна М.</p>
+                </div>
+                <p>✅ После оплаты напишите в Telegram — мы подтвердим бронь.</p>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="https://t.me/moizal_ekb" target="_blank" class="btn" style="background: #0088cc; padding: 12px 24px;">📱 Написать в Telegram</a>
+                </div>
+            </div>
+            <div class="card" style="text-align: center;">
+                <h3>📱 Запись по Telegram</h3>
+                <p style="margin: 20px 0;">Напишите нам в Telegram, чтобы:</p>
+                <ul class="list-icon" style="text-align: left;">
+                    <li>Забронировать место</li>
+                    <li>Уточнить дату проведения</li>
+                    <li>Получить ответы на вопросы</li>
+                </ul>
+                <a href="https://t.me/moizal_ekb" target="_blank" class="btn" style="background: #0088cc; margin-top: 20px;">✍️ Написать @moizal_ekb</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div style="text-align: center;">
+            <div class="badge">Отзывы</div>
+            <h2>Коллеги уже применяют</h2>
+        </div>
+        <div class="grid-3">
+            <div class="card">⭐️⭐️⭐️⭐️⭐️ <br> «После висцералки убрала живот клиентке за 1 сеанс. Теперь таз и банки добавила — вообще огонь!» <br>— Екатерина, массажист</div>
+            <div class="card">⭐️⭐️⭐️⭐️⭐️ <br> «Снятие зажимов таза — это must have. Клиентки с болями в пояснице уходят счастливые.» <br>— Ольга, остеопат</div>
+            <div class="card">⭐️⭐️⭐️⭐️⭐️ <br> «Банки + висцералка дают вау-эффект. Спасибо за структуру и четкие протоколы» <br>— Дмитрий, фитнес-тренер</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="grid-2">
+            <div>
+                <h2>❓ Частые вопросы</h2>
+                <div style="margin-bottom: 20px;"><strong>Нужно ли медицинское образование?</strong><br>Нет, протоколы безопасны и даются с чёткими границами.</div>
+                <div style="margin-bottom: 20px;"><strong>Что взять с собой?</strong><br>Удобную одежду, блокнот. Всё остальное предоставляем.</div>
+                <div><strong>Как долго длится мастер-класс?</strong><br>С 10:00 до 14:30, 4.5 часа с тремя блоками по 1.5 часа.</div>
+            </div>
+            <div class="card">
+                <h3>📜 По окончании</h3>
+                <p style="margin-top: 16px;">Сертификат о прохождении мастер-класса</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" style="text-align: center; background: #f9efe4; border-radius: 48px; margin: 40px 0; padding: 48px 24px;">
+        <h2>Готовы получить 3 мощных инструмента?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 24px;">Напишите в Telegram, чтобы забронировать место</p>
+        <a href="https://t.me/moizal_ekb" target="_blank" class="btn" style="font-size: 1.2rem; padding: 16px 48px; background: #0088cc;">📱 Написать в Telegram</a>
+        <p style="margin-top: 20px;">📞 Или по телефону: +7 912 650-86-27</p>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <p>© Мои знания, 2026. Адрес: Евгения Савкова, 35/2, фитнес-студия «Мой Зал».<br>Оплата: +7 912 650-86-27, Екатерина Сергеевна М.<br>Запись в Telegram: <a href="https://t.me/moizal_ekb" style="color: #c17b4c;">@moizal_ekb</a></p>
+    </div>
+</div>
+
+</body>
+</html>
