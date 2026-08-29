@@ -144,7 +144,11 @@
       font-weight: 500;
     }
 
-    .massage-price { font-weight: 700; font-size: 1.4rem; color: #9D6B54; }
+    .massage-price {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #9D6B54;
+    }
 
     .massage-desc {
       font-size: 0.9rem;
@@ -208,6 +212,7 @@
       border-radius: 60px;
       transition: 0.2s;
     }
+
     .contact-item i { font-size: 1.4rem; color: #BB8A76; width: 28px; }
     .contact-item a { text-decoration: none; color: #4A3B2C; font-weight: 500; }
     .contact-item:hover { background: #F7E5DB; transform: translateX(4px); }
@@ -218,6 +223,7 @@
       gap: 1.2rem;
       margin: 1rem 0;
     }
+
     .address {
       background: #FCF3EA;
       padding: 0.8rem 1.2rem;
@@ -241,7 +247,6 @@
       border-radius: 80px;
     }
 
-    /* Карусель отзывов */
     .carousel-track {
       display: flex;
       overflow-x: auto;
@@ -251,13 +256,16 @@
       scrollbar-width: thin;
       scrollbar-color: #D9A5A5 #FEF4E9;
     }
+
     .carousel-track::-webkit-scrollbar {
       height: 6px;
     }
+
     .carousel-track::-webkit-scrollbar-thumb {
       background: #D9A5A5;
       border-radius: 20px;
     }
+
     .carousel-card {
       flex: 0 0 300px;
       scroll-snap-align: start;
@@ -274,13 +282,16 @@
       padding: 2rem 1rem;
       text-align: center;
     }
+
     .booking-message h2 {
       font-size: 2rem;
       margin-bottom: 0.5rem;
     }
+
     .booking-message p {
       margin-bottom: 1.2rem;
     }
+
     .contact-buttons {
       display: flex;
       flex-wrap: wrap;
@@ -288,6 +299,7 @@
       gap: 1rem;
       margin-top: 1rem;
     }
+
     .contact-buttons a {
       background: linear-gradient(105deg, #D9A5A5 0%, #C48B7A 100%);
       border: none;
@@ -302,6 +314,7 @@
       gap: 8px;
       transition: transform 0.2s;
     }
+
     .contact-buttons a:hover {
       transform: translateY(-2px);
     }
@@ -317,83 +330,70 @@
       .massage-details { flex-direction: column; align-items: flex-start; }
       .flex-contacts { flex-direction: column; }
     }
+
     footer {
       text-align: center;
       font-size: 0.8rem;
       padding: 2rem 0 1.5rem;
       color: #B39881;
     }
+
     hr { margin: 1rem 0; border: 0; height: 1px; background: linear-gradient(to right, #FFE0CF, transparent); }
   </style>
 </head>
 <body>
 
 <div class="container">
+
   <section class="hero">
     <h1>Михальчук Николай Васильевич</h1>
     <div class="specialty"><i class="fas fa-heartbeat"></i> СПЕЦИАЛИСТ ПО НЕОТЛОЖНЫМ СОСТОЯНИЯМ И ВОССТАНОВИТЕЛЬНОЙ МЕДИЦИНЕ</div>
     <div class="start-date"><i class="far fa-calendar-alt"></i> С 20.04.2026 — новый формат заботы о Вашем здоровье</div>
   </section>
 
-  <!-- ========== БЛОК: ОБО МНЕ (без фото) ========== -->
   <section>
     <h2 style="font-size: 1.9rem; font-weight: 600; border-left: 5px solid #D9A5A5; padding-left: 18px;">🫀 Обо мне</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 2rem; background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(2px); border-radius: var(--card-radius); padding: 2rem; box-shadow: var(--soft-shadow); border: 1px solid rgba(255, 245, 235, 0.8); margin-top: 1rem;">
-      <div style="flex: 1 1 300px;">
+      <div style="flex: 2 1 350px;">
         <p style="font-size: 1.1rem; margin-bottom: 1rem;">В медицине всю жизнь. Начинал с травматологии, работал фельдшером. Сертификат фельдшера с 2010 г., переаттестация каждые 5 лет, постоянное повышение квалификации.</p>
-        
         <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.5rem;">
-          <div><i class="fas fa-hospital" style="color: #BB8A76; width: 24px;"></i> <strong>Опыт работы:</strong><br>
-            • ГКБ №3<br>• ДГКБ №11<br>• Скорая помощь<br>• Медицина катастроф<br>• Клиника «Белая ладья»
-          </div>
-          <div><i class="fas fa-certificate" style="color: #BB8A76;"></i> <strong>Образование / курсы:</strong><br>
-            • Медицинский массаж (с 2013)<br>• Хиропрактика, мануальная терапия<br>• Висцеральный массаж (школа Огулова, «Предтеча» 2014–2015)<br>• Авторские методики реабилитации
-          </div>
+          <div><i class="fas fa-hospital" style="color: #BB8A76; width: 24px;"></i> <strong>Опыт работы:</strong><br>• ГКБ №3<br>• ДГКБ №11<br>• Скорая помощь<br>• Медицина катастроф<br>• Клиника «Белая ладья»</div>
+          <div><i class="fas fa-certificate" style="color: #BB8A76;"></i> <strong>Образование / курсы:</strong><br>• Медицинский массаж (с 2013)<br>• Хиропрактика, мануальная терапия<br>• Висцеральный массаж (школа Огулова, «Предтеча» 2014–2015)<br>• Авторские методики реабилитации</div>
         </div>
-        
         <div style="margin-top: 1.8rem; background: #FADCD9; padding: 0.8rem 1.2rem; border-radius: 60px; display: inline-block;">
           <i class="fas fa-chalkboard-user"></i> С декабря 2025 — провожу обучение и мастер-классы по основам массажа и специализированным техникам.
         </div>
       </div>
+      <div style="flex: 1 1 250px; display: flex; justify-content: center; align-items: center;">
+        <img src="images/profile.jpg" alt="Михальчук Николай Васильевич" style="width: 100%; max-width: 280px; height: auto; border-radius: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 4px solid #FADCD9; object-fit: cover; aspect-ratio: 1/1;">
+      </div>
     </div>
   </section>
 
-  <!-- ========== УСЛУГИ И ПРОГРАММЫ (только 4 позиции с ценами) ========== -->
   <section>
     <h2 style="font-size: 1.9rem; font-weight: 600; border-left: 5px solid #A5B89A; padding-left: 18px;">👐 Услуги и программы</h2>
     <div class="card-grid">
-      
       <div class="massage-card">
         <div class="massage-title">Массаж</div>
-        <div class="massage-details"><span class="massage-time">50 мин</span><span class="massage-price">3000 ₽</span></div>
+        <div class="massage-details"><span class="massage-time">1 час 20 мин</span><span class="massage-price">4000 ₽</span></div>
         <div class="massage-desc">Сбор анамнеза, диагностика, проработка 2–3 ключевых зон. Включает ПИР, мягкие мануальные техники, тейпирование. Сеанс телесной терапии.</div>
       </div>
-      
-      <div class="massage-card">
-        <div class="massage-title">Массаж</div>
-        <div class="massage-details"><span class="massage-time">1 ч 15 мин</span><span class="massage-price">4200 ₽</span></div>
-        <div class="massage-desc">Расширенная версия для глубокой проработки. Больше времени на детальную работу с несколькими проблемными зонами.</div>
-      </div>
-      
       <div class="massage-card">
         <div class="massage-title">Детский массаж</div>
-        <div class="massage-details"><span class="massage-time">25-40 мин</span><span class="massage-price">2000 ₽</span></div>
+        <div class="massage-details"><span class="massage-time">30 мин</span><span class="massage-price">2000 ₽</span></div>
         <div class="massage-desc">Сколиоз, сутулость, последствия гаджетов. Мягкая коррекция осанки, укрепление мышечного корсета. Консультация родителям по гимнастике.</div>
       </div>
-      
       <div class="massage-card">
         <div class="massage-title">Мастер-класс по массажу</div>
         <div class="massage-details"><span class="massage-time">индивидуально</span><span class="massage-price">от 5000 ₽</span></div>
         <div class="massage-desc">Освой 32 классических приёма. От первого касания до уверенности. Индивидуальное обучение техникам массажа.</div>
       </div>
-      
     </div>
     <p style="margin-top: 20px; text-align: center; background: #FFF2E8; display: inline-block; width: auto; padding: 5px 20px; border-radius: 40px;">
       📢 Подробности и запись: <a href="https://t.me/Doc_ekb" target="_blank" style="color:#B37258; font-weight: 600;">t.me/Doc_ekb</a>
     </p>
   </section>
 
-  <!-- ========== ВСЕ ВИДЫ МАССАЖА (описание без цен и времени) ========== -->
   <section>
     <h2 style="font-size: 1.9rem; font-weight: 600; border-left: 5px solid var(--accent-rose); padding-left: 18px;">🌿 Техники, которые я применяю (ручной массаж)</h2>
     <div class="tech-grid">
@@ -425,7 +425,29 @@
     <p style="font-size: 0.85rem; margin-top: 0.5rem; color: #8F6F58;"><i class="fas fa-hand-peace"></i> Все техники выполняются вручную, без аппаратов. Длительность и стоимость сеанса уточняйте при записи.</p>
   </section>
 
-  <!-- ========== КАРУСЕЛЬ ОТЗЫВОВ ========== -->
+  <section>
+    <h2 style="font-size: 1.9rem; font-weight: 600; border-left: 5px solid #D9A5A5; padding-left: 18px;">📸 Примеры моей работы</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin-top: 1.5rem;">
+      <div style="border-radius: 24px; overflow: hidden; box-shadow: var(--soft-shadow); transition: transform 0.3s;">
+        <img src="images/work1.jpg" alt="Лечебный массаж спины" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+        <p style="padding: 0.5rem 0.8rem; text-align: center; font-weight: 500; background: white;">Лечебный массаж спины</p>
+      </div>
+      <div style="border-radius: 24px; overflow: hidden; box-shadow: var(--soft-shadow); transition: transform 0.3s;">
+        <img src="images/work2.jpg" alt="Детский массаж" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+        <p style="padding: 0.5rem 0.8rem; text-align: center; font-weight: 500; background: white;">Детский массаж</p>
+      </div>
+      <div style="border-radius: 24px; overflow: hidden; box-shadow: var(--soft-shadow); transition: transform 0.3s;">
+        <img src="images/work3.jpg" alt="Шейно-воротниковая зона" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+        <p style="padding: 0.5rem 0.8rem; text-align: center; font-weight: 500; background: white;">Шейно-воротниковая зона</p>
+      </div>
+      <div style="border-radius: 24px; overflow: hidden; box-shadow: var(--soft-shadow); transition: transform 0.3s;">
+        <img src="images/work4.jpg" alt="Массаж лица" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+        <p style="padding: 0.5rem 0.8rem; text-align: center; font-weight: 500; background: white;">Массаж лица</p>
+      </div>
+    </div>
+    <p style="text-align: center; margin-top: 1rem; font-size: 0.85rem; color: #8F6F58;"><i class="fas fa-camera"></i> Сделано руками Николая Михальчука</p>
+  </section>
+
   <section>
     <h2 style="font-size: 1.9rem; font-weight: 600; border-left: 5px solid #A5B89A; padding-left: 18px;">💬 Что говорят мои пациенты</h2>
     <div class="carousel-container" style="margin-top: 1.5rem;">
@@ -467,7 +489,6 @@
     </div>
   </section>
 
-  <!-- ========== КОНТАКТЫ И АДРЕСА (без QR) ========== -->
   <section>
     <div class="contacts-block">
       <h3><i class="fas fa-map-marker-alt"></i> Принимаю по адресам:</h3>
@@ -485,7 +506,6 @@
     </div>
   </section>
 
-  <!-- ========== ЗАПИСЬ ОНЛАЙН (без виджета) ========== -->
   <section>
     <div class="booking-message">
       <h2>📅 Записаться на сеанс</h2>
@@ -508,7 +528,8 @@
     <p>© 2026 Михальчук Николай Васильевич — специалист по неотложным состояниям и восстановительной медицине</p>
     <p>Екатеринбург | Массаж, детский массаж, телесные практики</p>
   </footer>
+
 </div>
 
 </body>
-</html>
+        </html>
